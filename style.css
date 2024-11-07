@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    background-color: red;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 8px
+}
+
+.top {
+    width: 400px;
+    height: 80px;
+    background: #DEB887;
+    margin-top: 15px;
+    border-radius: 20px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom: 10px solid #D3A15F;
+}
+
+.cheese {
+    width: 450px;
+    height: 8px;
+    background: #FFD700;
+    border-bottom: 5px solid #DAA520;
+}
+
+.tomato {
+    width: 300px;
+    height: 30px;
+    background: #FF0000;
+    border-bottom: 5px solid #DC143C;
+}
+
+.meat {
+    width: 350px;
+    height: 20px;
+    border-radius: 30px;
+    background: #CC6633;
+    border-bottom: 5px solid #993300;
+}
+
+.onion {
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #800080;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: #fcc4fc;
+} 
+.meat2{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.circle2{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #834116;
+}
