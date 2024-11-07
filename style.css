@@ -64,15 +64,40 @@ h1 {
     border-radius: 100px;
     background-color: #fcc4fc;
 } 
+
 .meat2{
     width: 300px;
-    height: 30px;
+    height: 70px;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 .circle2{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 100px;
     background-color: #834116;
+}
+.salad{
+    width: 250px;
+    height: 35px;
+    background: #90EE90;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom: 10px solid #008000; 
+}
+.meat3 {
+    width: 350px;
+    height: 20px;
+    border-radius: 30px;
+    background: #CC6633;
+    border-bottom: 5px solid #993300;
+}
+.bottom{
+    width: 400px;
+    height: 40px;
+    background: #DEB887;
+    border-radius: 20px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-bottom: 10px solid #D3A15F; 
 }
